@@ -3,7 +3,7 @@ import React from "react";
 const TaskStatusTabs = ({ tabs, activeTab, setActiveTab }) => {
   return (
     <div className="my-2">
-      <div className="flex">
+      <div className="flex flex-wrap overflow-x-auto">
         {tabs.map((tab) => (
           <button
             key={tab.label}

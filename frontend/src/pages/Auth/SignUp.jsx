@@ -149,7 +149,7 @@ export default function SignUp() {
 
           <p className="text-[13px] text-slate-800 mt-3">
             Have an account?{" "}
-            <Link className="font-medium text-primary underline" to="/login">
+            <Link className="font-medium text-primary underline py-10" to="/login">
               LogIn
             </Link>
           </p>

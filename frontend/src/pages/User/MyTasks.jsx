@@ -52,6 +52,7 @@ const MyTasks = () => {
   return (
     <DashboardLayout activeMenu="My Tasks">
       <div className="my-5">
+         <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between">
           <h2 className="text-xl md:text-xl font-medium">My Tasks</h2>
 
@@ -105,6 +106,7 @@ const MyTasks = () => {
             )}
           </div>
         )}
+        </div>
       </div>
     </DashboardLayout>
   );

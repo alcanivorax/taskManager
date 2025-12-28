@@ -31,7 +31,7 @@ A full-stack task management app built using the MERN stack (MongoDB, Express, R
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/roshan6022/MERN-Task-Manager.git
+   git clone https://github.com/alcanivorax/MERN-Task-Manager.git
    cd MERN-Task-Manager
    ```
 

@@ -18,6 +18,7 @@ import UserDashboard from "./pages/User/UserDashboard";
 import MyTasks from "./pages/User/MyTasks";
 import ViewTaskDetails from "./pages/User/ViewTaskDetails";
 import Landing from "./pages/Landing";
+import VerifyEmail from "./pages/Auth/VerifyEmail"
 import { UserProvider, UserContext } from "./context/userContext";
 import { Toaster } from "react-hot-toast";
 
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="/landing" element={<Landing />}></Route>
             <Route path="/login" element={<Login />}></Route>
             <Route path="/signup" element={<SignUp />}></Route>
+            <Route path="/verify-email" element={<VerifyEmail />}></Route>
             {/* Profile */}
             <Route element={<PrivateRoute allowedRoles={["admin", "user"]} />}>
               <Route path="/profile" element={<Profile />} />
